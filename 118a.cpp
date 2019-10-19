@@ -11,7 +11,7 @@ using namespace std;
     int len=s.length();
     rep(i,0,len){
  if(s[i]=='a'||s[i]=='e'||s[i]=='i'||s[i]=='o'||s[i]=='u'||s[i]=='A'||s[i]=='E'||s[i]=='I'||s[i]=='O'||s[i]=='U')    {
-        continue;
+          continue;
     }
     else{
             s1+='.';
